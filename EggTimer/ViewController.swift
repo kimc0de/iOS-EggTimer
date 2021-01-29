@@ -9,6 +9,7 @@
 import UIKit
 import AVFoundation
 
+
 class ViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
@@ -18,7 +19,7 @@ class ViewController: UIViewController {
     var totalTime = 0
     var secondsPassed = 0
     var player: AVAudioPlayer?
-    
+        
     @IBAction func hardnessSelected(_ sender: UIButton) {
      
         timer.invalidate() //stop if button is clicked but previous timer is still running
